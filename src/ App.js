@@ -56,4 +56,19 @@ export default function App() {
       )}
     </div>
   );
+<div style={{ marginBottom: 15 }}>
+  <a
+    href={window.location.origin}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: "#2563eb",
+      textDecoration: "underline",
+      fontWeight: "bold"
+    }}
+  >
+    🔗 Open this website in a new tab
+  </a>
+</div>
+
 }
